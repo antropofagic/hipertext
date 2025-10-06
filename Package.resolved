@@ -1,0 +1,42 @@
+{
+  "originHash" : "9a367b48c7b8f87b1889c8b230467dceb24c6ce6de2869e07be97d629a76c934",
+  "pins" : [
+    {
+      "identity" : "blueprint",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/thigcampos/blueprint.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "04454ac55a169834df179d87ac92c45eca39eba1"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3633633642a299bd80e198861267d232e6517d91"
+      }
+    },
+    {
+      "identity" : "syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/thigcampos/syntax.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0cc8c64f9b001ef92e71f75f08970c1c1f07749e"
+      }
+    },
+    {
+      "identity" : "thread",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/thigcampos/thread.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "58cbd36eb63ccee086d88e89895d399c0662b3d7"
+      }
+    }
+  ],
+  "version" : 3
+}
