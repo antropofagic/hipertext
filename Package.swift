@@ -10,7 +10,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-argument-parser.git", branch: "main"),
         .package(url: "https://github.com/thigcampos/syntax.git", branch: "main"),
         .package(url: "https://github.com/thigcampos/thread.git", branch: "main"),
-        .package(url: "https://github.com/thigcampos/blueprint.git", branch: "main"),
+        .package(url: "https://github.com/groue/GRMustache.swift", from: "7.0.0"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -19,7 +19,7 @@ let package = Package(
             name: "hx",
             dependencies: [
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
-                .product(name: "Blueprint", package: "blueprint"),
+                .product(name: "Mustache", package: "GRMustache.swift"),
                 .product(name: "Syntax", package: "syntax"),
                 .product(name: "Thread", package: "thread"),
             ]

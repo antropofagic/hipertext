@@ -1,13 +1,13 @@
 {
-  "originHash" : "9a367b48c7b8f87b1889c8b230467dceb24c6ce6de2869e07be97d629a76c934",
+  "originHash" : "84c499a8bcf331810773037d47d15ec9c9e8dbf3bfb3f414bbfa4eac59e0dfb3",
   "pins" : [
     {
-      "identity" : "blueprint",
+      "identity" : "grmustache.swift",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/thigcampos/blueprint.git",
+      "location" : "https://github.com/groue/GRMustache.swift",
       "state" : {
-        "branch" : "main",
-        "revision" : "04454ac55a169834df179d87ac92c45eca39eba1"
+        "revision" : "4e3449141ce03cb1510f4752a26751bb9fbff9c2",
+        "version" : "7.0.0"
       }
     },
     {
