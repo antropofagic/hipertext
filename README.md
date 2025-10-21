@@ -1,8 +1,8 @@
-# Hypertext
-**Hypertext** is a static site generator (SSG) written in Swift. It aims to be opinative and provides a zero config approach to SSG.
+# Hipertext
+**Hipertext** is a static site generator (SSG) written in Swift. It aims to be opinative and provides a zero config approach to SSG.
 
 >[!WARNING]
-> Hypertext is still in active development. Until version 1.0 is released, it is **not recommended** for production use.
+> Hipertext is still in active development. Until version 1.0 is released, it is **not recommended** for production use.
 
 ## Usage
 ```sh

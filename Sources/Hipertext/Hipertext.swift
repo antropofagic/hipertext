@@ -360,7 +360,7 @@ struct StaticFileServer {
 // MARK: - CLI
 
 @main
-struct Hypertext: ParsableCommand {
+struct Hipertext: ParsableCommand {
     static let configuration = CommandConfiguration(
         commandName: "hx",
         abstract: "An elegant static site generator",
@@ -368,7 +368,7 @@ struct Hypertext: ParsableCommand {
     )
 }
 
-extension Hypertext {
+extension Hipertext {
     struct Init: ParsableCommand {
         static let configuration = CommandConfiguration(abstract: "Create a new project structure.")
         func run() throws {

@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "Hypertext",
+    name: "Hipertext",
         platforms: [.macOS(.v13)],
         dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser.git", branch: "main"),
         .package(url: "https://github.com/thigcampos/syntax.git", branch: "main"),
         .package(url: "https://github.com/thigcampos/thread.git", branch: "main"),
-        .package(url: "https://github.com/groue/GRMustache.swift", from: "7.0.0"),
+        .package(url: "https://github.com/groue/GRMustache.swift", from: "7.0.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -21,7 +21,7 @@ let package = Package(
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
                 .product(name: "Mustache", package: "GRMustache.swift"),
                 .product(name: "Syntax", package: "syntax"),
-                .product(name: "Thread", package: "thread"),
+                .product(name: "Thread", package: "thread")
             ]
         )
     ]
